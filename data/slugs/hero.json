@@ -1,0 +1,56 @@
+{
+  "slug": "Hero",
+  "name": "Hero",
+  "description": "Hero page",
+  "colors": {
+    "background": "blue-500",
+    "navigation": {
+      "self": "white",
+      "text": "gray-900"
+    },
+    "footer": {
+      "bg": "white",
+      "text": "gray-900",
+      "textHover": "indigo-600"
+    },
+    "title": "gray-200",
+    "inlineTitle": "indigo-900",
+    "hero": {
+      "text": "gray-200"
+    },
+    "features": {
+      "title": "indigo-900",
+      "item": {
+        "name": "gray-200",
+        "description": "gray-200",
+        "icon": {
+          "bg": "indigo-900",
+          "svg": "white"
+        }
+      }
+    },
+    "cta": {
+      "title": "indigo-900",
+      "subtitle": "gray-200",
+      "buttonLeft": {
+        "self": "indigo-900",
+        "text": "white"
+      }
+    },
+    "threeColumns": {
+      "item": {
+        "name": "gray-200",
+        "description": "gray-200",
+        "icon": {
+          "bg": "indigo-900",
+          "svg": "white"
+        }
+      }
+    },
+    "contact": {
+      "title": "indigo-900",
+      "description": "gray-200",
+      "labels": "indigo-900"
+    }
+  }
+}

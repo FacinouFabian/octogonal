@@ -1,0 +1,56 @@
+{
+  "slug": "Contact",
+  "name": "Contact",
+  "description": "Contact page",
+  "colors": {
+    "background": "orange-400",
+    "navigation": {
+      "self": "gray-900",
+      "text": "white"
+    },
+    "footer": {
+      "bg": "gray-900",
+      "text": "white",
+      "textHover": "indigo-600"
+    },
+    "title": "white",
+    "inlineTitle": "gray-900",
+    "hero": {
+      "text": "white"
+    },
+    "features": {
+      "title": "gray-900",
+      "item": {
+        "name": "gray-900",
+        "description": "gray-900",
+        "icon": {
+          "bg": "white",
+          "svg": "gray-900"
+        }
+      }
+    },
+    "cta": {
+      "title": "gray-900",
+      "subtitle": "white",
+      "buttonLeft": {
+        "self": "gray-900",
+        "text": "white"
+      }
+    },
+    "threeColumns": {
+      "item": {
+        "name": "gray-900",
+        "description": "gray-900",
+        "icon": {
+          "bg": "white",
+          "svg": "gray-900"
+        }
+      }
+    },
+    "contact": {
+      "title": "gray-900",
+      "description": "gray-900",
+      "labels": "gray-900"
+    }
+  }
+}

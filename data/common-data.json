@@ -1,0 +1,59 @@
+{
+  "hello": {
+    "image": "https://miro.medium.com/max/1000/1*htbUdWgFQ3a94PMEvBr_hQ.png"
+  },
+  "hero": {
+    "text": {
+      "title": "Data to enrich your|online business",
+      "subtitle": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
+      "schools": "TRUSTED BY OVER 26,000 FORWARD-THINKING COMPANIES"
+    },
+    "images": {
+      "hero": "https://tailwindui.com/img/component-images/top-nav-with-multi-column-layout-screenshot.png",
+      "schools": [
+        {
+          "src": "https://pbs.twimg.com/media/F3BW7x3bwAATNkj?format=png&name=4096x4096",
+          "alt": "Tuple"
+        },
+        {
+          "src": "https://cdn.rareblocks.xyz/collection/celebration/images/logos/3/logo-2.png",
+          "alt": "Mirage"
+        },
+        {
+          "src": "https://vercel.com/api/www/avatar/5b479586be60a059844cc64555d69d22d680ca46?s=160",
+          "alt": "Statickit"
+        },
+        {
+          "src": "https://transistor.fm/images/transistor-white.svg",
+          "alt": "Transistor"
+        },
+        {
+          "src": "https://cdn.rareblocks.xyz/collection/celebration/images/logos/3/logo-3.png",
+          "alt": "Workcation"
+        }
+      ]
+    }
+  },
+  "testimonials": {
+    "text": {
+      "username": "Judith Black",
+      "userRule": "CEO",
+      "company": "Workcation"
+    },
+    "images": {
+      "avatar": {
+        "src": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+        "alt": "avatar"
+      }
+    }
+  },
+  "contact": {
+    "text": {},
+    "images": {
+      "form": {
+        "src": "https://images.unsplash.com/photo-1556761175-4b46a572b786?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80",
+        "alt": ""
+      }
+    }
+  }
+}

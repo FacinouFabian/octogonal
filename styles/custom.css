@@ -1,0 +1,78 @@
+* {
+  -webkit-user-drag: none;
+  transition-property: all !important;
+  transition-duration: 0.2s !important;
+  transition-timing-function: ease !important;
+  transition-delay: 0s !important;
+}
+
+.octo-text-sm {
+  top: 40px;
+}
+
+.z-999999 {
+  z-index: 999999;
+}
+
+/* List */
+ul {
+  counter-reset: index;
+}
+
+/* List element */
+li {
+  counter-increment: index;
+}
+
+/* Element counter */
+li::before {
+  position: absolute;
+  color: #fff;
+  content: counters(index, ".", decimal-leading-zero);
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+  min-width: 50px;
+  padding-right: 12px;
+  align-self: center;
+}
+
+.bordered {
+  border-color: rgb(0, 0, 0, 1);
+}
+
+.borderAnimate {
+  animation: colorchange 3s forwards;
+}
+
+.fadeOut {
+  animation: fadeOut 1s forwards;
+}
+
+.fadeIn {
+  animation: fadeIn 5s forwards;
+}
+
+.octagonHome {
+  transition: all 1s ease-out;
+  animation: octagonHome 0.4s forwards;
+}
+
+.octagonSlug {
+  z-index: 101;
+  animation: octagonSlug 0.4s forwards;
+}
+
+.octagonFromHome {
+  z-index: 101;
+  animation: octagonLearnFromHome 0.4s forwards;
+}
+
+.octagonFromSlug {
+  z-index: 101;
+  animation: octagonLearnFromSlug 0.4s forwards;
+}
+
+.max-w-nav {
+  max-width: 90%;
+}

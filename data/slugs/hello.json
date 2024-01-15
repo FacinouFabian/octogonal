@@ -1,0 +1,56 @@
+{
+  "slug": "Hello",
+  "name": "Hello",
+  "description": "Hello page",
+  "colors": {
+    "background": "indigo-500",
+    "navigation": {
+      "self": "white",
+      "text": "gray-900"
+    },
+    "footer": {
+      "bg": "white",
+      "text": "gray-900",
+      "textHover": "indigo-600"
+    },
+    "title": "white",
+    "inlineTitle": "indigo-900",
+    "hero": {
+      "text": "white"
+    },
+    "features": {
+      "title": "indigo-900",
+      "item": {
+        "name": "white",
+        "description": "white",
+        "icon": {
+          "bg": "indigo-900",
+          "svg": "white"
+        }
+      }
+    },
+    "cta": {
+      "title": "indigo-900",
+      "subtitle": "white",
+      "buttonLeft": {
+        "self": "indigo-900",
+        "text": "white"
+      }
+    },
+    "threeColumns": {
+      "item": {
+        "name": "white",
+        "description": "white",
+        "icon": {
+          "bg": "indigo-900",
+          "svg": "white"
+        }
+      }
+    },
+    "contact": {
+      "title": "indigo-900",
+      "description": "white",
+      "labels": "white"
+    }
+  }
+}

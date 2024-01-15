@@ -1,0 +1,56 @@
+{
+  "slug": "CTA",
+  "name": "CTA",
+  "description": "CTA page",
+  "colors": {
+    "background": "pink-500",
+    "navigation": {
+      "self": "pink-500",
+      "text": "white"
+    },
+    "footer": {
+      "bg": "pink-500",
+      "text": "white",
+      "textHover": "indigo-600"
+    },
+    "title": "white",
+    "inlineTitle": "indigo-600",
+    "hero": {
+      "text": "white"
+    },
+    "features": {
+      "title": "white",
+      "item": {
+        "name": "white",
+        "description": "white",
+        "icon": {
+          "bg": "indigo-500",
+          "svg": "white"
+        }
+      }
+    },
+    "cta": {
+      "title": "indigo-600",
+      "subtitle": "white",
+      "buttonLeft": {
+        "self": "indigo-600",
+        "text": "white"
+      }
+    },
+    "threeColumns": {
+      "item": {
+        "name": "white",
+        "description": "white",
+        "icon": {
+          "bg": "indigo-500",
+          "svg": "white"
+        }
+      }
+    },
+    "contact": {
+      "title": "indigo-600",
+      "description": "white",
+      "labels": "white"
+    }
+  }
+}

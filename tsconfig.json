@@ -13,8 +13,18 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+    "rootDir": ".",
+    "baseUrl": "./",
     "paths": {
-      "@/*": ["./*"]
+      "@/core/*": ["core/*"],
+      "@/layouts/*": ["core/layouts/*"],
+      "@/anchors/*": ["core/anchors/*"],
+      "@/components": ["core/components"],
+      "@/components/*": ["core/components/*"],
+      "@/public/*": ["public/*"],
+      "@/data/": ["data/"],
+      "@/data/*": ["data/*"],
+      "@/styles/*": ["styles/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],

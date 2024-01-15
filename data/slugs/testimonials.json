@@ -1,0 +1,56 @@
+{
+  "slug": "Testimonials",
+  "name": "Testimonials",
+  "description": "Testimonials page",
+  "colors": {
+    "background": "red-500",
+    "navigation": {
+      "self": "white",
+      "text": "gray-900"
+    },
+    "footer": {
+      "bg": "white",
+      "text": "gray-900",
+      "textHover": "indigo-600"
+    },
+    "title": "white",
+    "inlineTitle": "indigo-600",
+    "hero": {
+      "text": "white"
+    },
+    "features": {
+      "title": "white",
+      "item": {
+        "name": "white",
+        "description": "white",
+        "icon": {
+          "bg": "indigo-500",
+          "svg": "white"
+        }
+      }
+    },
+    "cta": {
+      "title": "gray-900",
+      "subtitle": "white",
+      "buttonLeft": {
+        "self": "gray-900",
+        "text": "white"
+      }
+    },
+    "threeColumns": {
+      "item": {
+        "name": "white",
+        "description": "white",
+        "icon": {
+          "bg": "indigo-500",
+          "svg": "white"
+        }
+      }
+    },
+    "contact": {
+      "title": "gray-900",
+      "description": "gray-900",
+      "labels": "gray-900"
+    }
+  }
+}

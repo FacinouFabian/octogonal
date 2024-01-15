@@ -1,0 +1,224 @@
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes colorchange {
+  0% {
+    border-color: rgba(0, 0, 0, 1);
+  }
+  50% {
+    border-color: rgba(188, 240, 218, 0.8);
+  }
+  100% {
+    border-color: rgba(188, 240, 218, 1);
+  }
+}
+
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  99% {
+    opacity: 0.01;
+    width: 100%;
+    height: 100%;
+  }
+  100% {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  99% {
+    opacity: 0.01;
+    width: 100%;
+    height: 100%;
+  }
+  100% {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    visibility: hidden;
+    opacity: 0;
+  }
+  to {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    visibility: hidden;
+    opacity: 0;
+  }
+  to {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+@keyframes animateStartMask {
+  from {
+    visibility: hidden;
+    transform: rotate(-90deg);
+  }
+
+  to {
+    visibility: visible;
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes animateMask1 {
+  from {
+    visibility: hidden;
+    transform: rotate(-20deg);
+  }
+
+  to {
+    visibility: visible;
+    transform: rotate(24.5deg);
+  }
+}
+
+@keyframes animateMask2 {
+  from {
+    visibility: hidden;
+    transform: rotate(-90deg);
+  }
+
+  to {
+    visibility: visible;
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes animateMask3 {
+  from {
+    visibility: hidden;
+    transform: rotate(-65deg);
+  }
+
+  to {
+    visibility: visible;
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes animateMask4 {
+  from {
+    visibility: hidden;
+    transform: rotate(-90deg);
+  }
+
+  to {
+    visibility: visible;
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes animateMask5 {
+  from {
+    visibility: hidden;
+    transform: rotate(-90deg);
+  }
+
+  to {
+    visibility: visible;
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes animateMask6 {
+  from {
+    visibility: hidden;
+    margin-top: 77%;
+    margin-left: -32%;
+    transform: rotate(0deg);
+  }
+
+  to {
+    visibility: visible;
+    margin-top: 77%;
+    margin-left: -32%;
+    transform: rotate(25deg);
+  }
+}
+
+@keyframes animateMask7 {
+  from {
+    visibility: hidden;
+    transform: rotate(-25deg);
+  }
+
+  to {
+    visibility: visible;
+    transform: rotate(25deg);
+  }
+}
+
+@keyframes octagonSlug {
+  from {
+    transform: translate3d(0%, 100%, 0) scale(1);
+  }
+
+  to {
+    transform: translate3d(-240%, 0%, 0) scale(0.25);
+  }
+}
+
+@keyframes octagonHome {
+  from {
+    transform: translate3d(-230%, -100%, 0) scale(0.25);
+  }
+
+  to {
+    transform: translate3d(0%, 0%, 0) scale(1);
+  }
+}
+
+@keyframes octagonLearnFromHome {
+  from {
+    transform: translate3d(0%, 100%, 0) scale(1);
+  }
+
+  to {
+    transform: translate3d(0%, 0%, 0) scale(0.25);
+  }
+}
+
+@keyframes octagonLearnFromSlug {
+  from {
+    transform: translateX(-250%) scale(0.25);
+  }
+
+  to {
+    transform: translateX(0) scale(0.25);
+  }
+}
+
+@keyframes octagonLearnToHome {
+  from {
+    transform: translate3d(0%, 0%, 0) scale(0.25);
+  }
+
+  to {
+    transform: translate3d(0%, 100%, 0) scale(1);
+  }
+}

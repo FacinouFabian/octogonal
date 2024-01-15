@@ -1,0 +1,56 @@
+{
+  "slug": "ThreeColumns",
+  "name": "ThreeColumns",
+  "description": "ThreeColumns page",
+  "colors": {
+    "background": "yellow-200",
+    "navigation": {
+      "self": "gray-900",
+      "text": "white"
+    },
+    "footer": {
+      "bg": "gray-900",
+      "text": "white",
+      "textHover": "indigo-600"
+    },
+    "title": "gray-900",
+    "inlineTitle": "indigo-600",
+    "hero": {
+      "text": "gray-900"
+    },
+    "features": {
+      "title": "gray-900",
+      "item": {
+        "name": "gray-900",
+        "description": "gray-900",
+        "icon": {
+          "bg": "gray-900",
+          "svg": "white"
+        }
+      }
+    },
+    "cta": {
+      "title": "gray-900",
+      "subtitle": "indigo-900",
+      "buttonLeft": {
+        "self": "gray-900",
+        "text": "white"
+      }
+    },
+    "threeColumns": {
+      "item": {
+        "name": "gray-900",
+        "description": "gray-900",
+        "icon": {
+          "bg": "gray-900",
+          "svg": "white"
+        }
+      }
+    },
+    "contact": {
+      "title": "gray-900",
+      "description": "gray-900",
+      "labels": "gray-900"
+    }
+  }
+}

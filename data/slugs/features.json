@@ -1,0 +1,56 @@
+{
+  "slug": "Features",
+  "name": "Features",
+  "description": "Features page",
+  "colors": {
+    "background": "green-500",
+    "navigation": {
+      "self": "green-500",
+      "text": "white"
+    },
+    "footer": {
+      "bg": "green-500",
+      "text": "white",
+      "textHover": "indigo-600"
+    },
+    "title": "white",
+    "inlineTitle": "indigo-600",
+    "hero": {
+      "text": "white"
+    },
+    "features": {
+      "title": "gray-900",
+      "item": {
+        "name": "gray-900",
+        "description": "white",
+        "icon": {
+          "bg": "gray-900",
+          "svg": "white"
+        }
+      }
+    },
+    "cta": {
+      "title": "gray-900",
+      "subtitle": "white",
+      "buttonLeft": {
+        "self": "gray-900",
+        "text": "white"
+      }
+    },
+    "threeColumns": {
+      "item": {
+        "name": "gray-900",
+        "description": "white",
+        "icon": {
+          "bg": "gray-900",
+          "svg": "white"
+        }
+      }
+    },
+    "contact": {
+      "title": "gray-900",
+      "description": "white",
+      "labels": "gray-900"
+    }
+  }
+}
