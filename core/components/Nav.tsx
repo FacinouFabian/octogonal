@@ -1,4 +1,4 @@
-import { FunctionComponent } from "react";
+import * as React from "react";
 import Image from "next/image";
 import Octagon from "./Octagon";
 import Link from "next/link";
@@ -14,7 +14,7 @@ interface Props {
   data: any;
 }
 
-const Nav: FunctionComponent<Props> = ({ color, data }): JSX.Element => {
+const Nav: React.FunctionComponent<Props> = ({ color, data }): JSX.Element => {
   return (
     <nav
       className={`w-full top-0 fixed bg-${

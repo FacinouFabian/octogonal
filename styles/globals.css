@@ -8,6 +8,34 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+* {
+  -webkit-user-drag: none;
+  transition-property: all !important;
+  transition-duration: 0.2s !important;
+  transition-timing-function: ease !important;
+  transition-delay: 0s !important;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
 area:hover {
   background-color: blueviolet;
 }
@@ -18,4 +46,27 @@ area:hover {
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
+}
+
+/* List */
+ul {
+  counter-reset: index;
+}
+
+/* List element */
+li {
+  counter-increment: index;
+}
+
+/* Element counter */
+li::before {
+  position: absolute;
+  color: #fff;
+  content: counters(index, ".", decimal-leading-zero);
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+  min-width: 50px;
+  padding-right: 12px;
+  align-self: center;
 }

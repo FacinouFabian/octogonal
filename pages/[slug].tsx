@@ -1,5 +1,5 @@
-import Layout from "@/layouts/showcase";
-import { Nav } from "@/components";
+import Layout from "@/core/layouts";
+import Nav from "@/components/Nav";
 import {
   Hello,
   Hero,

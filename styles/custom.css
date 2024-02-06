@@ -1,56 +1,9 @@
-* {
-  -webkit-user-drag: none;
-  transition-property: all !important;
-  transition-duration: 0.2s !important;
-  transition-timing-function: ease !important;
-  transition-delay: 0s !important;
-}
-
 .octo-text-sm {
   top: 40px;
 }
 
-.z-999999 {
-  z-index: 999999;
-}
-
-/* List */
-ul {
-  counter-reset: index;
-}
-
-/* List element */
-li {
-  counter-increment: index;
-}
-
-/* Element counter */
-li::before {
-  position: absolute;
-  color: #fff;
-  content: counters(index, ".", decimal-leading-zero);
-  font-size: 1.5rem;
-  text-align: center;
-  font-weight: bold;
-  min-width: 50px;
-  padding-right: 12px;
-  align-self: center;
-}
-
 .bordered {
   border-color: rgb(0, 0, 0, 1);
-}
-
-.borderAnimate {
-  animation: colorchange 3s forwards;
-}
-
-.fadeOut {
-  animation: fadeOut 1s forwards;
-}
-
-.fadeIn {
-  animation: fadeIn 5s forwards;
 }
 
 .octagonHome {
@@ -75,4 +28,35 @@ li::before {
 
 .max-w-nav {
   max-width: 90%;
+}
+
+.scenes {
+  position: relative;
+}
+
+@property --angle {
+  syntax: "<angle>";
+  inherits: true;
+  initial-value: -10deg;
+}
+
+.scene {
+  z-index: 100;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  inset: 0;
+  @apply hidden;
+  mask-image: conic-gradient(
+      #fff 0deg,
+      #fff calc(var(--angle) - 10deg),
+      transparent calc(var(--angle) + 10deg),
+      transparent 360deg
+    ),
+    conic-gradient(transparent 340deg, #fff 360deg);
+}
+
+.scene-animate {
+  display: block;
+  animation: scene-transition 2s linear forwards;
 }

@@ -1,6 +1,21 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
+  safelist: [
+    "bg-orange-400",
+    {
+      pattern: /(bg|text)-(gray-900|white|black)/,
+      variants: ["hover"],
+    },
+    {
+      pattern: /(bg|text)-(purple|green|indigo|pink|blue|red)-(500|600)/,
+      variants: ["hover"],
+    },
+    {
+      pattern: /(bg|text)-(gray|indigo|yellow)-(900|200)/,
+      variants: ["hover"],
+    },
+  ],
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./core/**/*.{js,ts,jsx,tsx,mdx}",
