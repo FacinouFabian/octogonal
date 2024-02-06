@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const Contact = (params: any) => {
   const data = params.props.contact;
@@ -9,8 +9,8 @@ const Contact = (params: any) => {
       <div className="hidden lg:block lg:absolute lg:inset-0">
         <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
           <Image
-            fill
-            objectFit=""
+            layout="fill"
+            objectFit="contain"
             className="h-56 w-full object-cover lg:absolute lg:h-full"
             src={data.images.form.src}
             alt={data.images.form.alt}

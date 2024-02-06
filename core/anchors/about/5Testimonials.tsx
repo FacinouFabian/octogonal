@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const Testimonials = (params: any) => {
   const data = params.props.testimonials;

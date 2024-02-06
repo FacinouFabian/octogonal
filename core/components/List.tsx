@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 import projects from "@/data/projects";
 
 interface Project {

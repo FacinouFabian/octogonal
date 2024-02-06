@@ -1,6 +1,6 @@
 import * as React from "react";
 import Link from "next/link";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import { useRouter } from "next/router";
 
 interface Params {
@@ -31,6 +31,7 @@ const Octagon: React.FunctionComponent<Props> = ({ params }): JSX.Element => {
       <Image
         layout="fill"
         objectFit="contain"
+        priority
         className="w-full h-full relative"
         src="/images/octagon.svg"
         alt="octagon"

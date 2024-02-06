@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const Hero = (params: any): JSX.Element => {
   const data = params.props.hero;
