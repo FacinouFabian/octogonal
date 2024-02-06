@@ -23,7 +23,7 @@ const Contact = (params: any) => {
             <h2
               className={`text-3xl text-${colors.title} leading-9 font-extrabold tracking-tight sm:text-4xl sm:leading-10`}
             >
-              Let's work together
+              Let&apos;s work together
             </h2>
             <p
               className={`mt-4 text-lg leading-7 text-${colors.description} sm:mt-3`}

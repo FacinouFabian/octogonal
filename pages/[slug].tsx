@@ -8,7 +8,7 @@ import {
   Testimonials,
   ThreeColumns,
   Contact,
-} from "@/core/anchors/about";
+} from "@/core/anchors";
 import { FunctionComponent } from "react";
 import path from "path";
 import fs from "fs";
